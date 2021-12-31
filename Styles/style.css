@@ -1,0 +1,74 @@
+/*	#ff8f7d
+ #D84B2B
+ #ec2100
+ #65000b.*/
+
+.navbar-custom{
+    background-color:#D84B2B !important;
+    padding: 30px 100px;
+}
+
+#header-sec{
+    background-color: #D84B2B;
+}
+
+.skewed{
+    transform : skewY(-2deg);
+    height:250px;
+    background-color: #D84B2B;
+    width: 100%;
+    object-fit: cover;
+
+}
+.unskew{
+    background-color:#D84B2B;
+    height: 125px;
+    position: absolute;
+    width: 100%;
+}
+
+.question-banner-start{
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 70px;
+    font-family: 'Ruslan Display', cursive;
+    
+}
+
+.question-banner-start h2{
+    font-size: 3rem;
+    color: #ec2100;
+}
+
+.warning{
+    width: 100%;
+    background-color: #D84B2B;
+    padding: 70px 20% 70px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.warning span{
+    text-decoration: line-through;
+    text-decoration-color:#ffffff;
+    text-decoration-thickness: 3px;
+}
+.question{
+    width: 100%;
+    text-align: center;
+    
+    font-family: 'Ruslan Display', cursive;
+    background-image: url(../Images/cup-soup.jpeg);
+    background-color: #ffffff;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20% 70px;
+    background-position: center;
+}
+
+.question h1{
+    font-size: 3rem;
+    color: #ffffff;
+}
